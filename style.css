@@ -1,0 +1,217 @@
+.mtopdiv {
+    background-image: url("gradient2.jpg");
+    background-repeat: repeat-x;
+    background-size: 70% 100%;
+}
+.body {
+    margin: 0;
+}
+.header {
+    position: absolute;
+    opacity: 1;
+}
+.headertext {
+    padding-left: 58px;
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+}
+.headertext:hover {   
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 65%;
+    text-decoration-thickness: 2px;
+}
+.work {
+    padding-top: 100px;
+    padding-bottom: 16px;
+    padding-left: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 62px;
+    position: relative;
+    transition: font-size 0.15s;
+}
+.work:hover {
+    font-size: 64px;
+}
+.place {
+    padding-left: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+    color: white;
+    transition: font-size 0.15s;
+    font-size: 22px;
+}
+.place:hover {
+    font-size: 24px;
+}
+.infodiv {
+    display: inline-block;
+    padding-bottom: 18px;
+}
+.img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 140px;
+    border: 4px solid rgb(239, 237, 237);
+}
+.photodiv {
+    display: inline-block;  
+    background-color: rgb(248, 244, 244);
+    margin-left: 85px;
+    margin-bottom: 650px;
+    vertical-align: middle;
+    border-radius: 140px;
+    margin-right: 76px;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 63px;
+    color: rgb(90, 89, 89);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 40%;
+    transition: font-size 0.15s;
+}
+.name:hover {
+    font-size: 65px;
+}
+.matter {
+    margin-bottom: 28px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+}
+.matter2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    font-size: 21px;
+    line-height: 32px;
+}
+.college {
+    font-weight: 600;
+    color: rgb(93, 93, 241);
+    font-style: italic;
+}
+.poorbottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 100px;
+}
+.clglnk {
+    text-decoration: none;
+}
+.clglnk:hover {
+    text-decoration: underline;
+    text-underline-offset: 30%;
+}
+.logo {
+    width: 50px;
+    opacity: 1;
+    margin-right: 24px;
+    transition: width 0.15s;
+}
+.logo:hover {
+    width: 57px;
+}
+.copy
+{
+    padding-left: 160px;
+            padding-top: 15px;
+            font-size: 13px;
+            display: block; font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+    .headertext {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .work {
+        padding-left: 20px;
+        font-size: 32px;
+    }
+
+    .place {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .photodiv {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .matter, .matter2 {
+        font-size: 16px;
+        padding: 0 20px;
+        text-align: justify;
+    }
+
+    .poorbottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .logo {
+        width: 40px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .headertext {
+        font-size: 12px;
+    }
+
+    .work {
+        font-size: 24px;
+    }
+
+    .place {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .matter, .matter2 {
+        font-size: 14px;
+    }
+    .logo {
+        width: 30px;
+    }
+}
