@@ -165,6 +165,7 @@
         height: 150px;
         margin: 0 auto;
     }
+    
 
     .name {
         font-size: 32px;
@@ -207,6 +208,14 @@
 
     .name {
         font-size: 24px;
+    }
+    .img{
+        margin: 0px;
+    }
+    .photodiv
+    {
+        margin-top: 20px;
+        padding: 5px;
     }
 
     .matter, .matter2 {
