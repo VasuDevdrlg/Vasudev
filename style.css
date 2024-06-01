@@ -194,6 +194,7 @@
 @media (max-width: 480px) {
     .headertext {
         font-size: 12px;
+        margin-top: 24px;
     }
 
     .work {
